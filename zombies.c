@@ -17,7 +17,7 @@
  * 
 */
 
-//TODO: remove before submitting 
+
 //#include <unistd.h>
 #include <stdio.h>
 
@@ -292,28 +292,6 @@ int get_puppy_direction(int height, int width, char room[height][width], int pup
 	return direction;
 }
 
-/*
-//print room function to watch it run
-//TODO: !!! Achtung bitte remove this before submitting
-
-void print_room(int height, int width, char room[height][width]){
-	
-	int i,j;
-		
-	for(i = 0; i<height ; i++){
-		for(j = 0; j<width ; j++){
-			printf("%c",room[i][j]);
-		}
-		//printf("\n"); //this is so it's readable
-
-	}
-	printf("\n");
-
-	//suspends execution of the calling thread by usec microseconds
-	//usleep(100000);
-
-}
-*/
 
 //receives the room matrix, performs one iteration of the simulation
 void iterate_simulation(int iterations, int height, int width, char room[height][width]){
@@ -485,11 +463,7 @@ void iterate_simulation(int iterations, int height, int width, char room[height]
 							room[row_counter+1][col_counter] = 'z';
 					}
 				}
-				/*
-				else if(dir == NO_TURN){
-					room[row_counter][col_counter] = 'z';
-				}
-				*/
+				
 			}
 			
 			}
