@@ -2,9 +2,7 @@ Name: David piatt
 
 Time to Complete: 40 hours
 
-Errors: Creating the array was difficult. I still don't understand pointers very well but got good advice on it in class. 
-
-Issues: I can't get the zombies and puppies to move correctly. I don't know if it's in the random function or the other logic. I don't know if I'm messing up the distance logic, or have some how messed up the implementation of the random functions. When tested without the random factor everything seems to move correctly then with the random function it just doesn't. It makes me very emotional if we're going to be honest. 
+Errors: Creating the array was difficult. I still don't understand pointers very well but got good advice on it in class.  
 
 Instructions: Any file named room will be read in. 
 
